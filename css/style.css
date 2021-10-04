@@ -8,7 +8,7 @@
 /* Header */
 header {
     background-image: url("../img/pattern.png");
-    background-color: rgb(0, 153, 255);
+    background-color: #4ea0ff;
     background-repeat: repeat-x;
     background-size: auto;
 }
@@ -50,10 +50,25 @@ ul{
     margin: 1%;
 }
 /* Table */
-thead{
-    background-color: rgb(0, 153, 255);
+table{
+    text-align: left;
+    border-collapse: collapse;
 }
-
+thead{
+    color: white;
+    background-color: #4ea0ff
+}
+th{
+    width: 25%;
+}
+td{
+    width: 25%;
+}
 .blue{
     background-color: lightblue;
+}
+
+/* Footer */
+footer{
+    margin: 1%;
 }
